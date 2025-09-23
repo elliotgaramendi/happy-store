@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <hero className="px-4 py-5 my-5 text-center">
+    <article className="px-4 py-5 my-5 text-center">
       <div className="container">
         <h1 className="display-5 fw-bold text-body-emphasis">Happy Store 🛒</h1>
         <div className="col-lg-6 mx-auto">
@@ -15,7 +15,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </hero>
+    </article>
   );
 }
 

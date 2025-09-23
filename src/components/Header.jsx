@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header>
+    <header className="fixed-top">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
           <a className="navbar-brand" href="#">HS 🛒</a>

@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { data } from "./data/data";
 
@@ -5,7 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className="mt-5">
         <section className="py-5">
           <div className="container text-center">
             <h1>Happy Store</h1>
@@ -35,6 +36,7 @@ function App() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   )
 }

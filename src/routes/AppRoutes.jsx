@@ -10,6 +10,6 @@ const AppRoutes = () => {
       <Route path="contact" element={<h1>Contact</h1>} />
     </Routes>
   );
-}
+};
 
 export default AppRoutes;

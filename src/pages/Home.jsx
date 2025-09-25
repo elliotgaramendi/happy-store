@@ -9,6 +9,6 @@ const Home = () => {
       <ProductGrid data={products} />
     </>
   );
-}
+};
 
 export default Home;
